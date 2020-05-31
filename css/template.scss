@@ -1,14 +1,40 @@
-@import url("../../res/fnt/font.css");
+$foreground-color: #ffffff;
+$background-color: #000000;
+$active-color: #8000ff;
 $font-stack: MediumJP;
-$fore-color: #ffffff;
-$back-color: #000000;
+$text-color: #444444;
+@import url("../../res/fnt/font.css");
+@import url("../css/comp/border.css");
+@import url("../css/comp/menu.css");
 
-/*global*/
-html {
-    background-color: $back-color;
+/*inherited*/
+html { 
+    background-color: $background-color;
     image-rendering: optimizeQuality;
 }
 /*font*/
 .font {
-    font-family: MediumJP;
+    font-family: $font-stack;
+    color:$text-color;
+    vertical-align: middle;
+}
+/*center text*/
+.txtctr {
+    text-align-last: center;
+}
+/*center block*/
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*static image*/
+#fixedimage {
+    z-index: -1;
+    position: fixed;
+    right: -6px;
+    bottom: 0px;
+    width: 256px;
+    height: auto;
 }
