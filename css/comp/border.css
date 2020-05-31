@@ -1,28 +1,34 @@
 /*border*/
-#top, #bottom, #left, #right { 
-    background: #ffffff; 
-    position: fixed;
+#top, #bottom, #left, #right {
+  background: #ffffff;
+  position: fixed;
 }
-#left, #right { 
-    top: 48px; 
-    bottom: 0px; 
-    width: 4px;
+
+#left, #right {
+  top: 48px;
+  bottom: 0px;
+  width: 4px;
 }
-#left { 
-    left: 0px;
+
+#left {
+  left: 0px;
 }
-#right { 
-    right: 0px;
+
+#right {
+  right: 0px;
 }
-#top, #bottom { 
-    left: 0px; 
-    right: 0px; 
-    height: 4px;
+
+#top, #bottom {
+  left: 0px;
+  right: 0px;
+  height: 4px;
 }
-#top { 
-    top: 0px;
-    display: none;
+
+#top {
+  top: 0px;
+  display: none;
 }
-#bottom { 
-    bottom: 0px;
+
+#bottom {
+  bottom: 0px;
 }
