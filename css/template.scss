@@ -1,0 +1,14 @@
+@import url("../../res/fnt/font.css");
+$font-stack: MediumJP;
+$fore-color: #ffffff;
+$back-color: #000000;
+
+/*global*/
+html {
+    background-color: $back-color;
+    image-rendering: optimizeQuality;
+}
+/*font*/
+.font {
+    font-family: MediumJP;
+}

@@ -1,0 +1,11 @@
+@import url("../../res/fnt/font.css");
+/*global*/
+html {
+  background-color: #000000;
+  image-rendering: optimizeQuality;
+}
+
+/*font*/
+.font {
+  font-family: MediumJP;
+}

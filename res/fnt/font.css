@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'roundedJP';
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+    
+    src:url(Corporate-Logo-Rounded.woff2) format('woff2'),
+    /*unicode-range:0;*/
+}
+@font-face {
+    font-family: 'mediumJP';
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+    
+    src:url(Corporate-Logo-Medium.woff2) format('woff2'),
+    /*unicode-range:0;*/
+}
+/*material*/
+@font-face {
+    font-family: 'Material Icons';
+    font-style: normal;
+    font-weight: 400;
+    src: url(material-icons.woff2) format('woff2');
+}
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+}
+  
