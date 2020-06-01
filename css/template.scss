@@ -11,6 +11,10 @@ $text-color: #444444;
 @import url("../css/comp/border.css");
 @import url("../css/comp/menu.css");
 
+* {
+    cursor: url("../res/cursor/sans.cur"), auto;
+}
+
 /*inherited*/
 html { 
     background-color: $text-color;

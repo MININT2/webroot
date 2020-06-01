@@ -26,6 +26,7 @@ li {
     float: left;
     height: 100%;
     a {
+        cursor: url("../../res/cursor/sansPointer.cur"), pointer;
         display: block;
         font-family: $font-stack;
         color: $text-color;
