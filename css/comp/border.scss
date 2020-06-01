@@ -1,8 +1,11 @@
+---
+# Border rules
+---
+
 $foreground-color: #ffffff;
 $border-thickness: 4px;
 $offset: 0px;
 
-/*border rules*/
 %border-all {
     background: $foreground-color; 
     position: fixed;
