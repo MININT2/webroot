@@ -5,10 +5,10 @@ title: template
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.html %}
+        {% include head.html title=page.title %}
     </head>
 
-    {% include nav.html %}
+    {% include nav.html current=page.title %}
 
     <div>
         <span>『パイナップル』</span>

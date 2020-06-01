@@ -1,0 +1,6 @@
+- name: home
+  link: page1.html
+- name: wack
+  link: page2.html
+- name: music
+  link: page3.html

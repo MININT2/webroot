@@ -1,16 +1,12 @@
 <div>
     <ul>
+        {% for item in site.data.nav %}
         <li>
-            <a {% if page.title == 'wack' %}class="active"{% endif %} href="page1.html" target="_parent">home</a>
+            <a ${ if include.current == item.name }class="active"{% endif %} href="{{ item.link }}" target="_parent">{{ item.name }}</a>
         </li>
-        <li>
-            <a {% if page.title == 'wack' %}class="active"{% endif %} href="page2.html" target="_parent">wack</a>
-        </li>
-        <li>
-            <a {% if page.title == 'wack' %}class="active"{% endif %} href="page3.html" target="_parent">music</a>
-        </li>
+        {% endfor %}
         <li class="hidden">
             <a href="hidden.html" target="_parent">.</a>
         </li>
-    </ul>        
+    </ul>
 </div>
