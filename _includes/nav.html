@@ -2,7 +2,7 @@
     <ul>
         {% for item in site.data.nav %}
         <li>
-            <a ${ if include.current == item.name }class="active"{% endif %} href="{{ item.link }}" target="_parent">{{ item.name }}</a>
+            <a {% if include.current == item.name %}class="active"{% endif %} href="{{ item.link }}" target="_parent">{{ item.name }}</a>
         </li>
         {% endfor %}
         <li class="hidden">
