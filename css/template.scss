@@ -9,9 +9,30 @@ $text-color: #444444;
 
 /*inherited*/
 html { 
-    background-color: $background-color;
+    background-color: $text-color;
     image-rendering: optimizeQuality;
 }
+
+@keyframes scroller {
+    from { transform: translateX(-100%);}
+    to { transform: translateX(100%);}
+}
+
+span {
+    top: 48px;
+    width: 100%;
+    font-size: 32px;
+    font-family: $font-stack;
+    position: absolute;
+    margin: 0;
+    overflow-x: hidden;
+    transform: translateX(-100%);
+    animation-name: scroller;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
 /*font*/
 .font {
     font-family: $font-stack;

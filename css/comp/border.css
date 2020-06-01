@@ -1,13 +1,20 @@
-/*border*/
-#top, #bottom, #left, #right {
+/*border rules*/
+#left, #right, #top, #bottom {
   background: #ffffff;
   position: fixed;
 }
 
 #left, #right {
   top: 48px;
+  /*topbar offset*/
   bottom: 0px;
   width: 4px;
+}
+
+#top, #bottom {
+  left: 0px;
+  right: 0px;
+  height: 4px;
 }
 
 #left {
@@ -16,12 +23,6 @@
 
 #right {
   right: 0px;
-}
-
-#top, #bottom {
-  left: 0px;
-  right: 0px;
-  height: 4px;
 }
 
 #top {
