@@ -6,10 +6,14 @@ title: hidden
 <html lang="en">
     <head>
         {% include head.html title=page.title %}
+
     </head>
 
     {% include nav.html current=page.title %}
 
     {% include border.html %}
     {% include image.html src="fixed.png" %}
+
+    <canvas class="the-canvas"></canvas>
+    <script src="../js/textback.js"></script>
 </html>
