@@ -1,5 +1,0 @@
-html {
-  background-image: linear-gradient(30deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222), linear-gradient(150deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222), linear-gradient(30deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222), linear-gradient(150deg, #222 12%, transparent 12.5%, transparent 87%, #222 87.5%, #222), linear-gradient(60deg, #333 25%, transparent 25.5%, transparent 75%, #333 75%, #333), linear-gradient(60deg, #333 25%, transparent 25.5%, transparent 75%, #333 75%, #333);
-  background-size: 80px 140px;
-  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
-}
