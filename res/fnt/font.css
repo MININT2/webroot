@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'mediumJP';
+    font-family: 'roundedJP';
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -10,7 +10,7 @@
     /*unicode-range:0;*/
 }
 @font-face {
-    font-family: 'roundedJP';
+    font-family: 'mediumJP';
     font-weight: normal;
     font-style: normal;
     font-display: block;
