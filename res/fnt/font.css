@@ -5,6 +5,8 @@
     font-display: swap;
     
     src:url(Corporate-Logo-Rounded.woff2) format('woff2'),
+        url(Corporate-Logo-Rounded.woff) format('woff'),
+        url(Corporate-Logo-Rounded.ttf) format('truetype');
     /*unicode-range:0;*/
 }
 @font-face {
@@ -14,17 +16,19 @@
     font-display: block;
     
     src:url(Corporate-Logo-Medium.woff2) format('woff2'),
+        url(Corporate-Logo-Medium.woff) format('woff'),
+        url(Corporate-Logo-Medium.ttf) format('truetype');
     /*unicode-range:0;*/
 }
 /*material*/
 @font-face {
-    font-family: 'Material Icons';
+    font-family: 'MaterialIcons';
     font-style: normal;
     font-weight: 400;
     src: url(material-icons.woff2) format('woff2');
 }
 .material-icons {
-    font-family: 'Material Icons';
+    font-family: 'MaterialIcons';
     font-weight: normal;
     font-style: normal;
     font-size: 24px;

@@ -5,7 +5,7 @@ var ratio = window.devicePixelRatio || 1;
 var totalLineHeight = 680;
 var totalLines = 4;
 var totalDiff = totalLineHeight / totalLines;
-//1 * ratio - 50
+//60 * ratio - 50
 var fontHeight = 64; //small centering
 
 var smallestWidth = 280; //width of smallest line
