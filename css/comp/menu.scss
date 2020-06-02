@@ -2,13 +2,8 @@
 # Menu
 ---
 
+@import 'global';
 
-@import url("../../res/fnt/font.css");
-$foreground-color: #ffffff;
-$background-color: #000000;
-$active-color: #8000ff;
-$font-stack: MediumJP;
-$text-color: #444444;
 
 ul {
     list-style-type: none;

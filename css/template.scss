@@ -1,6 +1,8 @@
-/*Template*/ 
+---
+# Template
+---
 
-@use '_global';
+@import 'global';
 @import url("../../res/fnt/font.css");
 @import url("../css/comp/border.css");
 @import url("../css/comp/menu.css");
