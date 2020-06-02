@@ -3,7 +3,7 @@
 ---
 
 @import 'global';
-
+@import url("../../res/fnt/font.css");
 
 ul {
     list-style-type: none;
@@ -23,7 +23,7 @@ li {
     a {
         cursor: url("../../res/cursor/sansPointer.cur"), pointer;
         display: block;
-        font-family: $font-stack;
+        font-family: mediumJP;
         color: $text-color;
         text-align: center;
         font-size: 32px;
