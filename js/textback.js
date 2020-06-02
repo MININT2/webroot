@@ -5,7 +5,8 @@ var ratio = window.devicePixelRatio || 1;
 var totalLineHeight = 680;
 var totalLines = 4;
 var totalDiff = totalLineHeight / totalLines;
-var fontHeight = 60 * ratio - 50; //small centering
+//1 * ratio - 50
+var fontHeight = 64; //small centering
 
 var smallestWidth = 280; //width of smallest line
 var offsetX = 12;
@@ -28,7 +29,7 @@ function init() {
   canvas.height = window.innerHeight * ratio;
  
   //canvas font prop
-  context.font = '180px mediumJP';
+  context.font = '128px mediumJP';
   context.textAlign = 'center';
   context.fillStyle = '#fff';
   context.strokeStyle = "#F0A5A3";
@@ -69,18 +70,8 @@ function draw() {
 
 //draw the text line by line
 function drawText(x, y) {
-  
-  context.fillText("THE ONE", x, y + line4Diff);
-  context.strokeText("THE ONE", x, y + line4Diff);
-  
-  context.fillText("YOU ARE", x, y + line3Diff);
-  context.strokeText("YOU ARE", x, y + line3Diff);
-  
-  context.fillText("LOOKING FOR", x, y + line2Diff);
-  context.strokeText("LOOKING FOR", x, y + line2Diff);
-  
-  context.fillText("IS YOU", x, y + line1Diff);
-  context.strokeText("IS YOU", x, y + line1Diff);
+  context.fillText("FEET", x, y + line3Diff);
+  context.strokeText("FEET", x, y + line3Diff);
 }
 
 //prevent having to do this shit every loop
