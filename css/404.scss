@@ -1,0 +1,29 @@
+---
+#404
+---
+
+@import url("../res/fnt/font.css");
+
+html {
+    background-color: #000000;
+    width:100%; 
+    height:100%; 
+}
+span {
+    font-family: roundedJP;
+    font-size: 128px;
+    z-index: 1;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+img {
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    height: 100%;
+ }
