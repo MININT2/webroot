@@ -1,19 +1,23 @@
 @font-face {
-    font-family: 'roundedJP';
+    font-family: 'mediumJP';
     font-weight: normal;
     font-style: normal;
     font-display: swap;
     
     src:url(Corporate-Logo-Rounded.woff2) format('woff2'),
+        url(Corporate-Logo-Rounded.woff) format('woff'),
+        url(Corporate-Logo-Rounded.ttf) format('truetype');
     /*unicode-range:0;*/
 }
 @font-face {
-    font-family: 'mediumJP';
+    font-family: 'roundedJP';
     font-weight: normal;
     font-style: normal;
     font-display: block;
     
     src:url(Corporate-Logo-Medium.woff2) format('woff2'),
+        url(Corporate-Logo-Medium.woff) format('woff'),
+        url(Corporate-Logo-Medium.ttf) format('truetype');
     /*unicode-range:0;*/
 }
 /*material*/
