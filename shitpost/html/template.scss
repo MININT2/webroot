@@ -2,13 +2,13 @@
 # Template
 ---
 
-@import 'global';
-@import url("../res/fnt/font.css");
-@import url("../css/comp/border.css");
-@import url("../css/comp/menu.css");
+@import 'shitpost';
+@import url("/shitpost/res/fnt/font.css");
+@import url("/shitpost/css/components/border.css");
+@import url("/shitpost/css/components/menu.css");
 
 * {
-    cursor: url("../res/cursor/sans.cur"), auto;
+    cursor: url("/shitpost/res/cursor/sans.cur"), auto;
 }
 
 /*inherited*/

@@ -1,6 +1,6 @@
 - name: home
-  link: page1.html
+  link: ../page1/page1.html
 - name: wack
-  link: page2.html
+  link: ../page2/page2.html
 - name: music
-  link: page3.html
+  link: ../page3/page3.html
