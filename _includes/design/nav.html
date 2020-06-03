@@ -1,3 +1,11 @@
-<div class="paper with-shadow">
-    <h1>Design Page</h1>
+<link rel="stylesheet" type="text/css" href="/design/css/components/nav.css">
+
+<div class="navbar paper with-shadow">
+    <ul>
+        {% for item in site.data.design %}
+        <li>
+            <button {% if include.current == item.name %}class="active"{% endif %} href="{{ item.link }}" target="_parent">{{ item.name }}</button>
+        </li>
+        {% endfor %}
+    </ul>
 </div>
