@@ -1,0 +1,35 @@
+---
+---
+
+.navbar {
+    display: block;
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    height: 5%;
+}
+
+li {
+    display: inline;
+    margin-left: 2%;
+    overflow: hidden;
+    button {
+        color: #888888;
+        background-color: #ffffff;
+        display: inline-block;
+        font-family: mediumJP;
+        text-align: center;
+        font-size: auto;
+        text-decoration: none;
+        overflow: hidden;
+    }
+    button:hover:not(.active) {
+        background-color: #dfdfff;
+    }
+}
+
+.active {
+    background-color: #888888;
+}
