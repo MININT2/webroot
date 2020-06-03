@@ -16,10 +16,12 @@ ul {
     width: 100vw;
     height: 10vh;
     right: 0px;
+    overflow: hidden;
 }
 li {
     float: left;
     height: 10vh;
+    overflow: hidden;
     a {
         cursor: url("/shitpost/res/cursor/sansPointer.cur"), pointer;
         display: block;
@@ -29,6 +31,7 @@ li {
         font-size: 8vh;
         padding: 5px 8px;
         text-decoration: none;
+        overflow: hidden;
     }
     a:hover:not(.active) {
         background-color: $background-color;
