@@ -13,20 +13,20 @@ ul {
     background-color: $foreground-color;
     position: fixed;
     top: 0px;
-    width: 100%;
-    height: 48px;
+    width: 100vw;
+    height: 10vh;
     right: 0px;
 }
 li {
     float: left;
-    height: 100%;
+    height: 10vh;
     a {
         cursor: url("/shitpost/res/cursor/sansPointer.cur"), pointer;
         display: block;
         font-family: mediumJP;
         color: $text-color;
         text-align: center;
-        font-size: 32px;
+        font-size: 8vh;
         padding: 5px 8px;
         text-decoration: none;
     }

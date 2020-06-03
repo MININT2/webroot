@@ -11,7 +11,7 @@ $offset: 0px;
     position: fixed;
 }
 %border-lr {
-    top: 48px; /*topbar offset*/
+    top: 10vh; /*topbar offset*/
     bottom: $offset; 
     width: $border-thickness;
 }
@@ -20,7 +20,7 @@ $offset: 0px;
     right: $offset; 
     height: $border-thickness;
 }
-#left { @extend %border-all; @extend %border-lr;    left: $offset;}
-#right { @extend %border-all; @extend %border-lr;   right: $offset;}
+#left { @extend %border-all; @extend %border-lr;    left: $offset; display: none;}
+#right { @extend %border-all; @extend %border-lr;   right: $offset; display: none;}
 #top { @extend %border-all; @extend %border-tb;     top: $offset; display: none;}
-#bottom { @extend %border-all; @extend %border-tb;  bottom: $offset;}
+#bottom { @extend %border-all; @extend %border-tb;  bottom: $offset; display: none;}
