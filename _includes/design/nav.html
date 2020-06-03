@@ -4,7 +4,9 @@
     <ul>
         {% for item in site.data.design %}
         <li>
-            <button {% if include.current == item.name %}class="active"{% endif %} href="{{ item.link }}" target="_parent">{{ item.name }}</button>
+            <form action="{{ item.link }}">
+                <button type="submit" {% if include.current == item.name %}class="active"{% endif %} target="_parent">{{ item.name }}</button>
+            </form>
         </li>
         {% endfor %}
     </ul>

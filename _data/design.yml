@@ -1,6 +1,6 @@
 - name: home
-  link: home.html
+  link: ../design/design.html
 - name: music
-  link: music.html
+  link: ../music/music.html
 - name: art
-  link: art.html
+  link: ../art/art.html
