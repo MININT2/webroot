@@ -1,0 +1,19 @@
+---
+title: hidden
+---
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% include shitpost/head.html title=page.title %}
+        <link rel="stylesheet" type="text/css" href="hidden.css">
+    </head>
+
+    {% include shitpost/nav.html current=page.title %}
+
+    {% include shitpost/border.html %}
+    {% include shitpost/image.html src="fixed.png" %}
+
+    <canvas class="the-canvas"></canvas>
+    <script src="/shitpost/js/textback.js"></script>
+</html>

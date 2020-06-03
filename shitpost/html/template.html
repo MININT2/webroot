@@ -5,10 +5,10 @@ title: template
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        {% include head.html title=page.title %}
+        {% include shitpost/head.html title=page.title %}
     </head>
 
-    {% include nav.html current=page.title %}
+    {% include shitpost/nav.html current=page.title %}
 
     <div>
         <span>『パイナップル』</span>
@@ -23,6 +23,6 @@ title: template
         </p>
     </body>
 
-    {% include border.html %}
-    {% include image.html src="thanos.gif" %}
+    {% include shitpost/border.html %}
+    {% include shitpost/image.html src="thanos.gif" %}
 </html>

@@ -1,0 +1,6 @@
+- name: home
+  link: home.html
+- name: music
+  link: music.html
+- name: art
+  link: art.html
