@@ -29,6 +29,7 @@ li {
         font-size: 8vh;
         padding: 5px 8px;
         text-decoration: none;
+        overflow: hidden;
     }
     a:hover:not(.active) {
         background-color: $background-color;
